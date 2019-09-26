@@ -1,0 +1,9 @@
+Server,RAM(GB),# of cores,Scratch storage (TB),% dedicated to Condor
+roy-submit,256,40,1.9,0
+roy-exec-1,768,20,2.5,75
+roy-exec-2,768,20,2.4,75
+roy-exec-3,1024,56x2 (hyperthreading on),2,75
+roy-exec-4,1024,56x2 (hyperthreading on),2,75
+roy-exec-5,1024,56x2 (hyperthreading on),2,75
+roy-exec-6,512,16,0,75
+roy-exec-7,64,12,0,75
