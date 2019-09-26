@@ -1,6 +1,6 @@
 ## References and resources for new members
 
-To view the content, click on the HTML document in the repo.
+To view the content, go to: 
 
 To update:
 1. Clone the repo.
