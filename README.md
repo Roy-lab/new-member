@@ -20,6 +20,8 @@ Instead of directly editing the onboarding.md file, which will make the original
 4. Make changes and re-knit the document.
 5. Push your changes back.
 
+If you don't want to install RStudio/rmarkdown, create an issue in the repo, with content you want to see and include any relevant links.
+
 ### Generate PDF or HTML
 
 If you want to generate the onboarding document in **PDF**:
