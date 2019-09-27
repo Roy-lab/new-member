@@ -7,7 +7,7 @@ Go to: https://github.com/Roy-lab/new-member/blob/master/onboarding.md
 ### Share
 
 1. This is **private repo**. Make sure you added the recipient to our Github group.
-2. Send them the link above. To share a specific section, hover over the section heading to expose the link; click on the link will jump you to the section-specific URL.
+2. Send them the link above. To share a specific section, hover over the section heading to expose the link; clicking on the link will jump you to the section-specific URL.
 ![Hover over the section heading to expose the link](./section-link.png)
 
 ### Update
