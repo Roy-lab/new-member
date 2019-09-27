@@ -21,8 +21,8 @@ Please go through this list to make sure the new member is set up for access.
 * Roy group email listserv - Sushmita will add them.
 * Teams - add them to Teams, appropriate channels.
 * elog - ask Sara to create an action item for them.
+* git - add them to our git group so they can see our private repos (including this one).
 * Zotero - add them to our group.
-* git - add them to our git group so they can see private repos too.
 * Let them know when and where the lab meetings are.
 * Create any relevant project folder for them.
 
