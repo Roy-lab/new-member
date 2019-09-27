@@ -248,7 +248,7 @@ Get practice creating a poster and talking about your research.
 
 If you do not come from a CS background, here's a sequence of classes we recommend (in order, taking into account pre-requisites).
 
-1. CS 302 (Intro to programming, in Java)
+1. CS 200, CS 300 (Programming I and II)
 2. CS 540 (Intro to AI) and CS/BMI 576 (Intro to Bioinformatics)
 3. CS 760 (Machine learning) and CS/BMI 776 (Advanced Bioinformatics)
 
