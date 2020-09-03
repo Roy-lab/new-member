@@ -7,6 +7,7 @@ Here's some information to help you feel less lost. It is an overwhelming amount
 [![Generic badge](https://img.shields.io/badge/COVID-Protocol-ff69b4.svg)](https://shields.io/) Most of us are working from home these days. We are very active on Teams with both work-related and food/dog/cat/bunny-related content. Come hang out with us virtually on [Teams](https://kb.wisc.edu/office365/page.php?id=73588).
 
 -   [Checklist for mentor](#checklist-for-mentor)
+-   [Teams](#teams)
 -   [Linux basics](#linux-basics)
 -   [Our servers](#our-servers)
 -   [Directory structure](#directory-structure)
@@ -59,6 +60,11 @@ Please go through this list to make sure the new member is set up for access.
 - [ ] Create any relevant project folder for them on datavault.
 - [ ] Discovery building/lab access
     - [![Generic badge](https://img.shields.io/badge/COVID-Protocol-ff69b4.svg)](https://shields.io/) Only those with pre-approved access can get into the research floors of the Discovery building. Those who spend 1+ hour a week at the building are also required to get tested for COVID each week. 
+
+Teams
+-----------
+
+We send messages and have discussions through Microsoft Teams (it's like Slack) - we will add your WiscID to our group so you can join. You can install a [Desktop app for Teams](https://kb.wisc.edu/office365/page.php?id=73588). 
 
 Linux basics
 ------------
