@@ -20,15 +20,15 @@ Last updated 9/25/2019
     -   [Module](#module)
     -   [Conda](#conda)
 -   [Documenting our work](#documenting-our-work)
--   [Lab meetings](#leb-meetings)
+-   [Lab meetings](#lab-meetings)
 -   [Sharing files](#sharing-files)
     -   [Dropbox](#dropbox)
     -   [pages.discovery.wisc.edu/~\[wid\_id\]](#pages)
     -   [Version control with git](#version-control-with-git)
--   [Github/git](#git)
+-   [Github/git](#githubgit)
 -   [Condor](#condor)
 -   [Printing and IT support](#printing-and-it-support)
--   [Papers & readings](#papers-readings)
+-   [Papers & readings](#papers-and-readings)
 -   [Conferences/seminars](#conferencesseminars)
     -   [Recommended seminars at UW Madison](#seminars)
     -   [Venues to present at UW Madison](#venues-to-present-at-uw-madison)
@@ -154,7 +154,7 @@ Software
 
 `/mnt/dv/wid/projects2/Roy-common/programs` contains tons of external and our own programs and scripts. If you're wondering if something's already out there, look around or ask instead of reinventing the wheel!
 
-### Github/git
+### Git repositories
 
 See [below](#git).
 
@@ -205,7 +205,7 @@ We use Dropbox to share slides and posters amongst ourselves and with our collab
 -   Create a personal folder in Dropbox and share with Sushmita. Put your slides/posters here.
 -   Ask to be added to relevant Dropbox folders for projects.
 
-### pages.discovery.wisc.edu/~\[wid\_id\]
+### Discovery pages
 
 Everyone with a WID ID gets a free webpage and space at pages.discovery.wisc.edu/~\[wid\_id\]. You can actually copy in image files into this space from any of our servers, and look at it on a browser ([example](http://pages.discovery.wisc.edu/~elee1/eigen_elbow_test/)):
 
@@ -241,7 +241,7 @@ Printing and IT support
 -   If you're having access/connection/elog/server issues, ask first in Teams if others are having the same issue. If we can't solve it we may have you contact the help desk (info in the knowledge base) and cc' Sushmita.
 -   The IT office is in the basement so you can hop down to ask questions. The poster printers are there, too.
 
-Papers & readings
+Papers and readings
 -----------------
 
 -   Sushmita shares papers of note through her Twitter account (@sroyyors).
