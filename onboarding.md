@@ -30,7 +30,7 @@ Last updated 9/25/2019
 -   [Printing and IT support](#printing-and-it-support)
 -   [Papers & readings](#papers-and-readings)
 -   [Conferences/seminars](#conferencesseminars)
-    -   [Recommended seminars at UW Madison](#seminars)
+    -   [Recommended seminars at UW Madison](#recommended-seminars-at-uw-madison)
     -   [Venues to present at UW Madison](#venues-to-present-at-uw-madison)
     -   [National and international conferences](#national-and-international-conferences)
     -   [Conference travel funding](#conference-travel-funding)
