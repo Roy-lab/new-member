@@ -8,7 +8,7 @@ Last updated 9/25/2019
 -   [Directory structure](#directory-structure)
 -   [Command line editor](#command-line-editor)
 -   [Programming languages](#programming-languages)
-    -   [C++](#c++)
+    -   [C++](#c)
     -   [Bash](#bash)
     -   [Python](#python)
     -   [R](#r)
@@ -16,14 +16,14 @@ Last updated 9/25/2019
     -   [FAQ: why don't we implement things in Python or R?](#faq-why-dont-we-implement-things-in-python-or-r)
 -   [Software](#software)
     -   [Programs directory](#program-directory)
-    -   [Github/git](#githubgit)
+    -   [Git repositories](#git-repositories)
     -   [Module](#module)
     -   [Conda](#conda)
 -   [Documenting our work](#documenting-our-work)
 -   [Lab meetings](#lab-meetings)
 -   [Sharing files](#sharing-files)
     -   [Dropbox](#dropbox)
-    -   [pages.discovery.wisc.edu/~\[wid\_id\]](#pages)
+    -   [Discovery pages](#discovery-pages)
     -   [Version control with git](#version-control-with-git)
 -   [Github/git](#githubgit)
 -   [Condor](#condor)
@@ -32,9 +32,9 @@ Last updated 9/25/2019
 -   [Conferences/seminars](#conferencesseminars)
     -   [Recommended seminars at UW Madison](#seminars)
     -   [Venues to present at UW Madison](#venues-to-present-at-uw-madison)
-    -   [National/international conferences](#nationalinternational-conferences)
+    -   [National and international conferences](#national-and-international-conferences)
     -   [Conference travel funding](#conference-travel-funding)
--   [Lab space/food](#lab-spacefood)
+-   [Lab space and food](#lab-space-and-food)
 -   [CS classes](#cs-classes)
 
 Here's some information to help you feel less lost. It is an overwhelming amount of information, but we don't expect anyone to go figure it all out and learn everything in weeks. It's to point you to resources so you can orient yourself, and then hopefully you can teach yourself how to fish. Have fun! We got your back.
@@ -274,7 +274,7 @@ Get practice creating a poster and talking about your research.
 -   Epigenetics symposium (fall)
 -   Undergrad research seminar (spring)
 
-### National/international conferences
+### National and international conferences
 
 -   RECOMB (late spring)
 -   GLBIO (late spring)
@@ -289,7 +289,7 @@ Get practice creating a poster and talking about your research.
 -   ISMB will offer travel fellowships - make sure you apply if your abstract is accepted.
 -   Cold Spring Harbor always has a note telling students to contact a point person for financial aid questions.
 
-Lab space/food
+Lab space and food
 --------------
 
 -   Our lab is unlocked from 9am to 5pm.
