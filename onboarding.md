@@ -4,9 +4,7 @@ Last updated 9/3/2020
 
 Here's some information to help you feel less lost. It is an overwhelming amount of information, but we don't expect anyone to go figure it all out and learn everything in weeks. It's to point you to resources so you can orient yourself, and then hopefully you can teach yourself how to fish. Have fun! We got your back.
 
-Look for this badge to find changes and updates we've made to work safely during the pandemic:
-
-[![Generic badge](https://img.shields.io/badge/COVID-Protocol-ff69b4.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/COVID-Protocol-ff69b4.svg)](https://shields.io/) Most of us are working from home these days. We are very active on Teams with both work-related and food-/dog-/cat/bunny-related content. Come hang out with us virtually on [Teams](https://kb.wisc.edu/office365/page.php?id=73588).
 
 -   [Checklist for mentor](#checklist-for-mentor)
 -   [Linux basics](#linux-basics)
@@ -28,7 +26,7 @@ Look for this badge to find changes and updates we've made to work safely during
 -   [Documenting our work](#documenting-our-work)
 -   [Lab meetings](#lab-meetings)
 -   [Sharing files](#sharing-files)
-    -   [Dropbox](#dropbox)
+    -   [Google shared drive](#google-shared-drive)
     -   [Discovery pages](#discovery-pages)
     -   [Version control with git](#version-control-with-git)
 -   [Github/git](#githubgit)
@@ -164,7 +162,7 @@ Software
 
 ### Git repositories
 
-See [below](#github-git).
+See [below](#githubgit).
 
 ### Module
 
@@ -210,11 +208,11 @@ Lab meetings
 Sharing files
 -------------
 
-### Google Shared Drive
+### Google shared drive
 
-We use Google Shared Drive to share slides, posters, documents, and other data amongst ourselves and with our collaborators. Note we use the UW-Madison G Suite, with our WiscID email login - the Shared Drive ensures that the data doesn't disappear when someone leaves the University. Some resources:
+We use Google shared drive to share slides, posters, documents, and other data amongst ourselves and with our collaborators. Note we use the UW-Madison G Suite, with our WiscID email login - the shared drive ensures that the data doesn't disappear when someone leaves the University. Some resources:
 
-- If you join our lab, it might be worth installing File Stream so you can access the Shared Drive directories right from your desktop: https://kb.wisc.edu/28362
+- If you join our lab, it might be worth installing File Stream so you can access the shared drive directories right from your desktop: https://kb.wisc.edu/28362
 - Knowledge Base: https://kb.wisc.edu/47616
 
 ### Discovery pages
@@ -263,7 +261,9 @@ Papers and readings
 Conferences/seminars
 --------------------
 
-We encourage attending relevant seminars and presenting at conferences. We post events of interest in Teams &gt; Roy Group &gt; Seminars, Talks, and Conferences channel.
+We encourage attending and presenting at relevant seminars and conferences. We post events of interest in Teams &gt; Roy Group &gt; Seminars, Talks, and Conferences channel. We schedule practice talks for anyone who wants to get feedback.
+
+[![Generic badge](https://img.shields.io/badge/COVID-Protocol-ff69b4.svg)](https://shields.io/) Many of the conferences have gone online this year, and we have had members present successfully online. Practice talks have also gone online via Teams.
 
 ### Recommended seminars at UW Madison
 
@@ -300,6 +300,7 @@ Get practice creating a poster and talking about your research.
 -   UW Madison grad school conference award: applications accepted year-around, look up the logistical details.
 -   ISMB will offer travel fellowships - make sure you apply if your abstract is accepted.
 -   Cold Spring Harbor always has a note telling students to contact a point person for financial aid questions.
+-   ACM's Women in Computing also offers year-around scholarships for attending research computer science conferences.
 
 Lab space and food
 --------------
