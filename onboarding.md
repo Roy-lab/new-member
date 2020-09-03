@@ -2,7 +2,7 @@ Welcome to Roy Lab
 ================
 Last updated 9/25/2019
 
--   [Checklist for mentor](#checklist)
+-   [Checklist for mentor](#checklist-for-mentor)
 -   [Linux basics](#linux)
 -   [Our servers](#servers)
 -   [Directory structure](#directories)
