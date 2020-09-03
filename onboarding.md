@@ -1,6 +1,12 @@
 Welcome to Roy Lab
 ================
-Last updated 9/25/2019
+Last updated 9/3/2020
+
+Here's some information to help you feel less lost. It is an overwhelming amount of information, but we don't expect anyone to go figure it all out and learn everything in weeks. It's to point you to resources so you can orient yourself, and then hopefully you can teach yourself how to fish. Have fun! We got your back.
+
+Look for this badge to find changes and updates we've made to work safely during the pandemic:
+
+[![Generic badge](https://img.shields.io/badge/COVID-Protocol-ff69b4.svg)](https://shields.io/)
 
 -   [Checklist for mentor](#checklist-for-mentor)
 -   [Linux basics](#linux-basics)
@@ -15,7 +21,7 @@ Last updated 9/25/2019
     -   [Matlab](#matlab)
     -   [FAQ: why don't we implement things in Python or R?](#faq-why-dont-we-implement-things-in-python-or-r)
 -   [Software](#software)
-    -   [Programs directory](#program-directory)
+    -   [Programs directory](#programs-directory)
     -   [Git repositories](#git-repositories)
     -   [Module](#module)
     -   [Conda](#conda)
@@ -37,22 +43,24 @@ Last updated 9/25/2019
 -   [Lab space and food](#lab-space-and-food)
 -   [CS classes](#cs-classes)
 
-Here's some information to help you feel less lost. It is an overwhelming amount of information, but we don't expect anyone to go figure it all out and learn everything in weeks. It's to point you to resources so you can orient yourself, and then hopefully you can teach yourself how to fish. Have fun! We got your back.
-
 Checklist for mentor
 --------------------
 
 Please go through this list to make sure the new member is set up for access.
 
--   WID login and bulding/lab access - Sushmita will request this for them.
-    -   Once they get a login, make sure they log into WIDMIR wifi.
--   Roy group email listserv - Sushmita will add them.
--   Teams - add them to Teams, appropriate channels.
--   elog - ask Sara to create an action item for them.
--   git - add them to our git group so they can see our private repos (including this one).
--   Zotero - add them to our group.
--   Let them know when and where the lab meetings are.
--   Create any relevant project folder for them.
+- [ ] WID login - Sushmita will request this for them.
+- [ ] Roy group email listserv - Sushmita will add them.
+- [ ] Teams - add them to Teams, appropriate channels.
+- [ ] elog - ask Sara to create an action item for them.
+    - They will need to be on WiscVPN or Discovery VPN to access elogs.
+- [ ] Google shared drive - ask Erika or Sushmita to add them to the shared drive.
+- [ ] git - add them to our git group so they can see our private repos.
+- [ ] Zotero - add them to our group.
+- [ ] Let them know when and where the lab meetings are.
+    - [![Generic badge](https://img.shields.io/badge/COVID-Protocol-ff69b4.svg)](https://shields.io/) All lab meetings are currently online through Teams.
+- [ ] Create any relevant project folder for them on datavault.
+- [ ] Discovery building/lab access
+    - [![Generic badge](https://img.shields.io/badge/COVID-Protocol-ff69b4.svg)](https://shields.io/) Only those with pre-approved access can get into the research floors of the Discovery building. Those who spend 1+ hour a week at the building are also required to get tested for COVID each week. 
 
 Linux basics
 ------------
@@ -90,7 +98,7 @@ Directory structure
 -------------------
 
 -   You have a personal home directory (`/mnt/ws/home/[wid_id]/`), but it has a storage cap and others can't access it so don't put any official work there.
--   Our lab's work is stored in WID's data vault, an overarching storage and file system for all of WID. `/mnt/dv/wid/projects2/` and `/mnt/dv/wid/projects3/` subdirectories are our lab's. Ask which project is relevant to you.
+-   Our lab's work is stored in WID's data vault, an overarching storage and file system for all of WID. `/mnt/dv/wid/projects2/`, `/mnt/dv/wid/projects3/`, `/mnt/dv/wid/projects5/` all have storage for our lab. Ask which project is relevant to you.
 -   `/mnt/dv/wid/projects2/Roy-common/` has `data` and `programs` subdirectories, which contains tons of downloaded data and external/our own programs and scripts. If you're wondering if something's already out there, look around or ask instead of reinventing the wheel!
 -   Whenever you create a new directory, put a README file with when you created it, who you are, and what the content of the folder is going to be. If you don't know how to create a file in command line, see [Command line editor](#vim).
 
@@ -156,7 +164,7 @@ Software
 
 ### Git repositories
 
-See [below](#git).
+See [below](#github-git).
 
 ### Module
 
@@ -179,7 +187,7 @@ Documenting our work
 
 When you join our team, you should have your own Action Items list in elog.
 
--   NOTE: You can only access [elog.discovery.wisc.edu](https://elog.discovery.wisc.edu/) if you are on the UW/WID network or are VPN'd in (look up how to set up UW-Madison VPN if you need to).
+-   NOTE: You can only access [elog.discovery.wisc.edu](https://elog.discovery.wisc.edu/) if you are on the UW/WID network or are VPN'd in (look up how to set up WiscVPN if you need to).
 -   Put an elog under Action Items to document your to-do list and progress each weak.
 -   Also put notes from meeting with Sushmita there.
 
@@ -188,32 +196,36 @@ As you work on a specific project, Sushmita or someone will let you know under w
 -   Each elog should have at least a goal/motivation, method, and results section.
 -   Document any relevant directory locations (input files, outputfiles, program/code/scripts, etc.) needed to replicate the work.
 
+Feel free to ask for an example elog!
+
 Lab meetings
 ------------
 
 -   There is a weekly lab meeting. Members rotate each week, presenting the problem they are working on.
--   If you're presenting next week, send your slides to Sushmita ahead of time and/or print a copy for her.
+-   If you're presenting next week, send your slides to Sushmita ahead of time (or print a copy for her).
 -   The meetings are informal with lots of back-and-forth and you may not get through everything you prepared. That's okay!
+-   [![Generic badge](https://img.shields.io/badge/COVID-Protocol-ff69b4.svg)](https://shields.io/) All our meetings are currently taking place online. The presenter will start a meeting in Teams > Roy Group > Group Meetings.
+-   Slides are shared on [Google Shared Drive](#google-shared-drive) under Lab Meeting Slides folder.
 
 Sharing files
 -------------
 
-### Dropbox
+### Google Shared Drive
 
-We use Dropbox to share slides and posters amongst ourselves and with our collaborators.
+We use Google Shared Drive to share slides, posters, documents, and other data amongst ourselves and with our collaborators. Note we use the UW-Madison G Suite, with our WiscID email login - the Shared Drive ensures that the data doesn't disappear when someone leaves the University. Some resources:
 
--   Create a personal folder in Dropbox and share with Sushmita. Put your slides/posters here.
--   Ask to be added to relevant Dropbox folders for projects.
+- If you join our lab, it might be worth installing File Stream so you can access the Shared Drive directories right from your desktop: https://kb.wisc.edu/28362
+- Knowledge Base: https://kb.wisc.edu/47616
 
 ### Discovery pages
 
-Everyone with a WID ID gets a free webpage and space at pages.discovery.wisc.edu/~\[wid\_id\]. You can actually copy in image files into this space from any of our servers, and look at it on a browser ([example](http://pages.discovery.wisc.edu/~elee1/eigen_elbow_test/)):
+Everyone with a WID ID (different from your WiscID) gets a free webpage and space at pages.discovery.wisc.edu/~\[wid\_id\]. You can actually copy in image files into this space from any of our servers, and look at it on a browser ([example](http://pages.discovery.wisc.edu/~elee1/gould/)):
 
 `scp [file] [wid_id]@pages.discovery.wisc.edu:~/public_html/[target]`
 
 ### Version control with git
 
-We are attempting to use git for version control when writing manuscripts. We'll see how it goes. [More on git below](#git).
+We are attempting to use git for version control when writing manuscripts. We'll see how it goes. [More on git below](#githubgit).
 
 Github/git
 ----------
@@ -232,14 +244,14 @@ We sometimes have to run the same program 10,000 times, for different input file
 3.  \[If you need to\] Running R/Python/Matlab: <http://chtc.cs.wisc.edu/howto_overview.shtml>
 
 -   Condor office hours: check the websites above.
--   We post questions/tips/notices about Condor in Teams &gt; Roy Group &gt; Condor channel.
+-   We post questions/tips/notices about Condor in Teams &gt; Roy Group &gt; Condor.
 
 Printing and IT support
 -----------------------
 
 -   Discovery building has its own IT support. It has a great knowlege base (KB) with articles on how to do things, including how to set up printing: <https://kb.wisc.edu/discovery/>
 -   If you're having access/connection/elog/server issues, ask first in Teams if others are having the same issue. If we can't solve it we may have you contact the help desk (info in the knowledge base) and cc' Sushmita.
--   The IT office is in the basement so you can hop down to ask questions. The poster printers are there, too.
+-   The IT office is in the basement so you can hop down to ask questions when there isn't a pandemic. The poster printers are there, too.
 
 Papers and readings
 -----------------
@@ -255,7 +267,7 @@ We encourage attending relevant seminars and presenting at conferences. We post 
 
 ### Recommended seminars at UW Madison
 
-Google them for schedules/presenters; we might have the schedule already posted on the whiteboard.
+Google them for schedules/presenters; we might have the schedule already posted on the whiteboard (which you'll be able to see once we're back in our physical lab).
 
 -   Biostat seminars
 -   CS seminars
@@ -291,6 +303,8 @@ Get practice creating a poster and talking about your research.
 
 Lab space and food
 --------------
+
+[![Generic badge](https://img.shields.io/badge/COVID-Protocol-ff69b4.svg)](https://shields.io/) Only those with pre-approved access can get into the research floors of the Discovery building. Those who spend 1+ hour a week at the building are also required to get tested for COVID each week. Most of us are lucky enough to be able to work from home, and we have active chat on Teams every day. 
 
 -   Our lab is unlocked from 9am to 5pm.
 -   The whiteboard in our lab has some useful information posted: our servers, upcoming seminar series, upcoming conferences.
