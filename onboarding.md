@@ -64,7 +64,9 @@ Please go through this list to make sure the new member is set up for access.
 Teams
 -----------
 
-We send messages and have discussions through Microsoft Teams (it's like Slack) - we will add your WiscID to our group so you can join. You can install a [Desktop app for Teams](https://kb.wisc.edu/office365/page.php?id=73588). 
+Most of our communications go through Microsoft Teams (it's like Slack). We will add your WiscID to our group so you can join. You can install a [Desktop app for Teams](https://kb.wisc.edu/office365/page.php?id=73588). 
+
+One caveat: please **don't** post results on Teams; the search functionality isn't great and it will get lost in the messages. Refer to [Documenting our work](#documenting-our-work) section.
 
 Linux basics
 ------------
