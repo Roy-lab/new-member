@@ -4,7 +4,7 @@ Last updated 9/3/2020
 
 Here's some information to help you feel less lost. It is an overwhelming amount of information, but we don't expect anyone to go figure it all out and learn everything in weeks. It's to point you to resources so you can orient yourself, and then hopefully you can teach yourself how to fish. Have fun! We got your back.
 
-[![Generic badge](https://img.shields.io/badge/COVID-Protocol-ff69b4.svg)](https://shields.io/) Most of us are working from home these days. We are very active on Teams with both work-related and food-/dog-/cat/bunny-related content. Come hang out with us virtually on [Teams](https://kb.wisc.edu/office365/page.php?id=73588).
+[![Generic badge](https://img.shields.io/badge/COVID-Protocol-ff69b4.svg)](https://shields.io/) Most of us are working from home these days. We are very active on Teams with both work-related and food/dog/cat/bunny-related content. Come hang out with us virtually on [Teams](https://kb.wisc.edu/office365/page.php?id=73588).
 
 -   [Checklist for mentor](#checklist-for-mentor)
 -   [Linux basics](#linux-basics)
