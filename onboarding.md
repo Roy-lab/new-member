@@ -332,5 +332,5 @@ If you do not come from a CS background, here's a sequence of classes we recomme
 
 Additionally, these classes cover materials very relevant to our work, but may not be offered every semester:
 
--   CS/BMI 838 Network biology
+-   BMI826-023/CS838 Network biology
 -   CS/STAT/ECE/ME 532 Matrix Methods in Machine Learning
