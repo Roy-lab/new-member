@@ -322,7 +322,7 @@ Lab space and food
 -   You can of course use the kitchen. Just leave it clean!
 -   We try to have most of our meetings at room 3130, just across the hallway from the lab.
 
-CS classes
+Classes
 ----------
 
 If you do not come from a CS background, here's a sequence of classes we recommend (in order, taking into account pre-requisites).
@@ -336,3 +336,5 @@ Additionally, these classes cover materials very relevant to our work, but may n
 -   BMI 826-023/CS 838 Network Biology
 -   CS/STAT/ECE/ME 532 Matrix Methods in Machine Learning
 -   STAT 451 Introduction to Machine Learning and Statistical Pattern Classification
+
+If you're coming from the computational side and want to dig deeper into biology, you may want to check out GENETICS 466 (Principles of Genetics). It does have some basic biology and chemistry pre-requisites. There are also seminars you can take for credit, spread throughout many different biology-related departments. Ask our lab members if you're curious about a class and how relevant you think it would be for our work.
