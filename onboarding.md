@@ -299,9 +299,10 @@ Get practice creating a poster and talking about your research.
 -   RECOMB (late spring)
 -   GLBIO (late spring)
 -   ISMB (summer)
+-   ASHG (late October/early November)
 -   RSG-DREAM (December)
 -   NeurIPS MLCB (December)
--   Cold Spring Harbor meetings
+-   Cold Spring Harbor meetings (throughout the year)
 
 ### Conference travel funding
 
@@ -332,5 +333,6 @@ If you do not come from a CS background, here's a sequence of classes we recomme
 
 Additionally, these classes cover materials very relevant to our work, but may not be offered every semester:
 
--   BMI826-023/CS838 Network biology
+-   BMI 826-023/CS 838 Network Biology
 -   CS/STAT/ECE/ME 532 Matrix Methods in Machine Learning
+-   STAT 451 Introduction to Machine Learning and Statistical Pattern Classification
