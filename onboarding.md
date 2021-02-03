@@ -1,6 +1,6 @@
 Welcome to Roy Lab
 ================
-Last updated 9/3/2020
+Last updated 2/3/2021
 
 Here's some information to help you feel less lost. It is an overwhelming amount of information, but we don't expect anyone to go figure it all out and learn everything in weeks. It's to point you to resources so you can orient yourself, and then hopefully you can teach yourself how to fish. Have fun! We got your back.
 
@@ -11,6 +11,7 @@ Here's some information to help you feel less lost. It is an overwhelming amount
 -   [Linux basics](#linux-basics)
 -   [Our servers](#our-servers)
 -   [Directory structure](#directory-structure)
+-   [Terminal management](#terminal-management)
 -   [Command line editor](#command-line-editor)
 -   [Programming languages](#programming-languages)
     -   [C++](#c)
@@ -89,16 +90,17 @@ Your \[wid\_id\] and temp password is in the email that IT sent you (it is NOT y
 
 `ssh elee1@roy-submit.discovery.wisc.edu`
 
-| Server     |  RAM (GB)| \# of CPUs               |  Scratch storage (TB)|  % dedicated to Condor|
-|:-----------|---------:|:-------------------------|---------------------:|----------------------:|
-| roy-submit |       256| 40                       |                   1.9|                      0|
-| roy-exec-1 |       768| 20                       |                   2.5|                     75|
-| roy-exec-2 |       768| 20                       |                   2.4|                     75|
-| roy-exec-3 |      1024| 56x2 (hyperthreading on) |                   2.0|                     75|
-| roy-exec-4 |      1024| 56x2 (hyperthreading on) |                   2.0|                     75|
-| roy-exec-5 |      1024| 56x2 (hyperthreading on) |                   2.0|                     75|
-| roy-exec-6 |       512| 16                       |                   0.0|                     75|
-| roy-exec-7 |        64| 12                       |                   0.0|                     75|
+| Server     |  RAM (GB)| \# of CPUs (logical cores)|  Scratch storage (TB)|  % dedicated to Condor|
+|:-----------|---------:|--------------------------:|---------------------:|----------------------:|
+| roy-submit |       256| 40                        |                   1.9|                      0|
+| roy-exec-1 |       768| 20                        |                   2.5|                     75|
+| roy-exec-2 |       768| 20                        |                   2.4|                     75|
+| roy-exec-3 |      1024| 112                       |                   2.0|                     75|
+| roy-exec-4 |      1024| 112                       |                   2.0|                     75|
+| roy-exec-5 |      1024| 112                       |                   2.0|                     75|
+| roy-exec-6 |       512| 16                        |                   0.0|                     75|
+| roy-exec-7 |        64| 12                        |                   0.0|                     75|
+| roy-exec-8 |      1024| 144                       |                   1.3|                     75|
 
 Directory structure
 -------------------
@@ -107,6 +109,13 @@ Directory structure
 -   Our lab's work is stored in WID's data vault, an overarching storage and file system for all of WID. `/mnt/dv/wid/projects2/`, `/mnt/dv/wid/projects3/`, `/mnt/dv/wid/projects5/` all have storage for our lab. Ask which project is relevant to you.
 -   `/mnt/dv/wid/projects2/Roy-common/` has `data` and `programs` subdirectories, which contains tons of downloaded data and external/our own programs and scripts. If you're wondering if something's already out there, look around or ask instead of reinventing the wheel!
 -   Whenever you create a new directory, put a README file with when you created it, who you are, and what the content of the folder is going to be. If you don't know how to create a file in command line, see [Command line editor](#vim).
+
+Terminal Management
+-------------------
+Screen or Tmux is helpful in managing your terminal and navigating the command line. It allows you to create a new "window" or split your screen so you can monitor locally running jobs easily. Both tools are already installed in our servers; you can just pick one and go for it. 
+
+- Tutorial for Screen: <https://linuxize.com/post/how-to-use-linux-screen/>
+- Tutorial for Tmux: <https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/>
 
 Command line editor
 -------------------
