@@ -345,5 +345,6 @@ Additionally, these classes cover materials very relevant to our work, but may n
 -   BMI 826-023/CS 838 Network Biology
 -   CS/STAT/ECE/ME 532 Matrix Methods in Machine Learning
 -   STAT 451 Introduction to Machine Learning and Statistical Pattern Classification
+-   Introduction to Deep Learning From Sebastian Raschka
 
 If you're coming from the computational side and want to dig deeper into biology, you may want to check out GENETICS 466 (Principles of Genetics). It does have some basic biology and chemistry pre-requisites. There are also seminars you can take for credit, spread throughout many different biology-related departments. Ask our lab members if you're curious about a class and how relevant you think it would be for our work.
