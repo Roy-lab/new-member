@@ -151,7 +151,7 @@ You can debug C++ programs with **gdb**.
 
 ### Python
 
--   For external programs: other researchers may have released their programs in Python. We install them in a [**conda**](#conda) environment (using **pip**) or by downloading them from git.
+-   For external programs: other researchers may have released their programs in Python. We install them in a [**conda**](#conda) environment. We recommed not to use **pip** because it puts things in a global path and makes conflicts. Don't mix conda and pip.
 -   For preprocessing/postprocessing files: if **awk** (see [Bash](#bash) above) fails you, you can use Python as a simple scripting language.
 -   For visualization: **seaborn** is a particular favorite for generating pretty charts. You can use a **Jupyter/iPython notebook** to run code and create visualizations on the fly.
 
@@ -196,6 +196,11 @@ As you read in [Python](#python) and [R](#r) above, we sometimes have to install
 
 -   First load the Anaconda module: see [Module](#module).
 -   Follow the conda documentation to create and manage environments: <https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#>
+-   Note, if you use a lot of python packages, your home directory may not be big enough to maintain the conda packages. Instead you can change the conda configurations for you, to make conda install in a different place. You can do this as follows
+    - Make a new .conda folder, e.g. in /mnt/dv/wid/project5/Roy-singlecell/<work_folder>/.conda
+    - Do `conda config --prepend pkgs_dirs <path to .conda folder>/pkgs`
+    - Do `conda config --prepend envs_dirs <path to .conda folder>/envs` 
+- After this you can do the usual conda commands of creating and activating environments.
 
 Documenting our work
 --------------------
