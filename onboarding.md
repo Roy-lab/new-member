@@ -10,6 +10,7 @@ Here's some information to help you feel less lost. It is an overwhelming amount
 -   [Teams](#teams)
 -   [Linux basics](#linux-basics)
 -   [Our servers](#our-servers)
+-   [Server best practices](#server-best-practices)
 -   [Directory structure](#directory-structure)
 -   [Terminal management](#terminal-management)
 -   [Command line editor](#command-line-editor)
@@ -101,6 +102,26 @@ Your \[wid\_id\] and temp password is in the email that IT sent you (it is NOT y
 | roy-exec-6 |       512| 16                        |                   0.0|                     75|
 | roy-exec-7 |        64| 12                        |                   0.0|                     75|
 | roy-exec-8 |      1024| 144                       |                   1.3|                     75|
+
+Server best practices
+---------------------
+
+Tips for preventing server crashes:
+	
+DO NOT
+- run a program that writes to standard out in a loop overnight unless you have done this already and have a sense of how much space it needs.
+	
+DO
+- check `df -h .` for disk space usage in current directory.
+- check `top -u <your username>` or `top -u <your username>` for memory availablity and CPU usage before and while running a high-memory or multi-core job or multiple jobs locally.
+- check ganglia for computing resource avilablility
+    - https://ganglia.discovery.wisc.edu/?c=Systems%20Biology&m=load_one&r=hour&s=by%20name&hc=4&mc=2
+    - CPU: https://ganglia.discovery.wisc.edu/?r=hour&cs=&ce=&c=Systems+Biology&h=&tab=m&vn=&hide-hf=false&m=cpu_report&sh=1&z=small&hc=4&host_regex=&max_graphs=0&s=by+name
+    - Memory: https://ganglia.discovery.wisc.edu/?r=hour&cs=&ce=&c=Systems+Biology&h=&tab=m&vn=&hide-hf=false&m=mem_report&sh=1&z=small&hc=4&host_regex=&max_graphs=0&s=by+name
+- remove intermediate output files and tar up or gzip output files before generating more large output files.
+- use smallest possible dataset for troubleshooting.
+- parallelize tasks and distribute computing as much as possible, e.g., per-chromosome runs instead of genome-wide runs of HiCReg.
+- communicate via Teams to coordinate intensive computing runs.
 
 Directory structure
 -------------------
