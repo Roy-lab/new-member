@@ -122,6 +122,7 @@ DO
 - use smallest possible dataset for troubleshooting.
 - parallelize tasks and distribute computing as much as possible, e.g., per-chromosome runs instead of genome-wide runs of HiCReg.
 - communicate via Teams to coordinate intensive computing runs.
+- to minimize the number of times you have to scp output files (especially images) back and forth between the server and your local machine, attach datavault to your Mac/Windows following the instructions [here](https://elog.discovery.wisc.edu/Software/202).
 
 Directory structure
 -------------------
