@@ -124,7 +124,7 @@ DO
 - parallelize tasks and distribute computing as much as possible, e.g., per-chromosome runs instead of genome-wide runs of HiCReg.
 - communicate via Teams to coordinate intensive computing runs.
 - to minimize the number of times you have to scp output files (especially images) back and forth between the server and your local machine, attach datavault to your Mac/Windows following the instructions [here](https://elog.discovery.wisc.edu/Software/202).
-- before installing big complicated depdencies, check [module](#module) and ask about pre-existing conda environments.
+- before installing big complicated dependencies, check [module](#module) and ask about pre-existing conda environments.
 
 Directory structure
 -------------------
@@ -227,6 +227,7 @@ Discovery IT installs useful software on the computing cluster and makes it avai
 -   To load a module, for example Matlab r2015a, use the command: `module load matlab-r2015a`
 -   To view your loaded modules, use the command: `module list`
 -   To unload a module if you would like to use a different version, for example unloading Matlab r2015a, use the command: `module unload matlab-r2015a`
+-   To install additional R packages not available in a module, see <https://elog.discovery.wisc.edu/Software/232>. 
 -   NOTE: ArchR is notoriously hard to install. In roy-exec-1 to roy-exec-9, it is available in module `R-4.3.1-Monocle3-ArchR`; in roy-exec-10, under module `conda3-py310_23.11.0-2`.
 
 ### Conda
