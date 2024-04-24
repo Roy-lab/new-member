@@ -1,6 +1,6 @@
 Welcome to Roy Lab
 ================
-Last updated 2/9/2022
+Last updated 4/24/2024
 
 Here's some information to help you feel less lost. It is an overwhelming amount of information, but we don't expect anyone to go figure it all out and learn everything in weeks. It's to point you to resources so you can orient yourself, and then hopefully you can teach yourself how to fish. Have fun! We got your back.
 
@@ -58,10 +58,8 @@ Please go through this list to make sure the new member is set up for access.
 - [ ] git - add them to our git group so they can see our private repos.
 - [ ] Zotero - add them to our group.
 - [ ] Let them know when and where the lab meetings are.
-    - [![Generic badge](https://img.shields.io/badge/COVID-Protocol-ff69b4.svg)](https://shields.io/) All lab meetings are currently online through Teams.
 - [ ] Create any relevant project folder for them on datavault.
 - [ ] Discovery building/lab access
-    - [![Generic badge](https://img.shields.io/badge/COVID-Protocol-ff69b4.svg)](https://shields.io/) Only those with pre-approved access can get into the research floors of the Discovery building. Those who spend 1+ hour a week at the building are also required to get tested for COVID each week. 
 
 Teams
 -----------
@@ -126,6 +124,7 @@ DO
 - parallelize tasks and distribute computing as much as possible, e.g., per-chromosome runs instead of genome-wide runs of HiCReg.
 - communicate via Teams to coordinate intensive computing runs.
 - to minimize the number of times you have to scp output files (especially images) back and forth between the server and your local machine, attach datavault to your Mac/Windows following the instructions [here](https://elog.discovery.wisc.edu/Software/202).
+- before installing big complicated depdencies, check [module](#module) and ask about pre-existing conda environments.
 
 Directory structure
 -------------------
@@ -141,6 +140,13 @@ Screen or Tmux is helpful in managing your terminal and navigating the command l
 
 - Tutorial for Screen: <https://linuxize.com/post/how-to-use-linux-screen/>
 - Tutorial for Tmux: <https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/>
+  - to create a new session: `tmux new-session -s [session name]`
+  - to detach or pause a session: ctrl + b + d
+  - to reattach or get back into a session: `tmux a -t [session name]`
+  - to get in read-only mode: `tmux a -rt [session name]`
+  - to see list of sessions open: `tmux ls`
+  - to kill a session: `tmux kill-session -t [session name]`
+  - to kill everything: `tmux kill-server`
 
 Command line editor
 -------------------
@@ -198,6 +204,13 @@ Because they are slow. A lot of it has to do with the fact that they are not com
 Software
 --------
 
+### Dependencies
+Before installing big complicated dependencies or 3rd party programs, check [modules](#module) and ask if there is an existing conda environment you can use.
+
+- ArchR is notoriously hard to install. In roy-exec-1 to roy-exec-9, it is available in module `R-4.3.1-Monocle3-ArchR`; in roy-exec-10, under module `conda3-py310_23.11.0-2`.
+- For installing libtorch, follow the instructions [here](https://github.com/Roy-lab/libtorch_examples?tab=readme-ov-file#installing-libtorch-and-associated-libraries). 
+- When making a [conda](#conda) environment, specify a path with the `conda create --prefix /path/to/env` and create it somewhere accessible to all lab members, i.e., not in your home directory. You can easily point to the environment path in your elogs this way.
+
 ### Programs directory
 
 `/mnt/dv/wid/projects2/Roy-common/programs` contains tons of external and our own programs and scripts. If you're wondering if something's already out there, look around or ask instead of reinventing the wheel!
@@ -214,14 +227,16 @@ Discovery IT installs useful software on the computing cluster and makes it avai
 -   To load a module, for example Matlab r2015a, use the command: `module load matlab-r2015a`
 -   To view your loaded modules, use the command: `module list`
 -   To unload a module if you would like to use a different version, for example unloading Matlab r2015a, use the command: `module unload matlab-r2015a`
+-   NOTE: ArchR is notoriously hard to install. In roy-exec-1 to roy-exec-9, it is available in module `R-4.3.1-Monocle3-ArchR`; in roy-exec-10, under module `conda3-py310_23.11.0-2`.
 
 ### Conda
 
-As you read in [Python](#python) and [R](#r) above, we sometimes have to install external programs deployed in those languages. It gets complicated when different programs need different versions of Python/R and dependencies. Conda lets you create an isolated environment to install different dependencies.
+As you read in [Python](#python), [R](#r), and [dependencies](#dependencies) above, we sometimes have to install external programs deployed in those languages. It gets complicated when different programs need different versions of Python/R and dependencies. Conda lets you create an isolated environment to install different packages.
 
 -   First load the Anaconda module: see [Module](#module).
 -   Follow the conda documentation to create and manage environments: <https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#>
--   Note, if you use a lot of python packages, your home directory may not be big enough to maintain the conda packages. Instead you can change the conda configurations for you, to make conda install in a different place. You can do this as follows
+-   Specify a path with the `conda create --prefix /path/to/env` and create the environment somewhere accessible to all lab members, i.e., not in your home directory. You can easily point to the environment path in your elogs this way.
+-   If you want to completely change the location where conda environments and packages are installed by default, follow the steps:
     - Make a new .conda folder, e.g. in /mnt/dv/wid/project5/Roy-singlecell/<work_folder>/.conda
     - Do `conda config --prepend pkgs_dirs <path to .conda folder>/pkgs`
     - Do `conda config --prepend envs_dirs <path to .conda folder>/envs` 
@@ -353,13 +368,12 @@ Get practice creating a poster and talking about your research.
 Lab space and food
 --------------
 
-[![Generic badge](https://img.shields.io/badge/COVID-Protocol-ff69b4.svg)](https://shields.io/) Only those with pre-approved access can get into the research floors of the Discovery building. Those who spend 1+ hour a week at the building are also required to get tested for COVID each week. Most of us are lucky enough to be able to work from home, and we have active chat on Teams every day. 
+Only those with pre-approved access can get into the research floors of the Discovery building. 
 
 -   Our lab is unlocked from 9am to 5pm.
 -   The whiteboard in our lab has some useful information posted: our servers, upcoming seminar series, upcoming conferences.
 -   You can grab the food on the shelves/cabinets in our side of the lab.
 -   You can of course use the kitchen. Just leave it clean!
--   We try to have most of our meetings at room 3130, just across the hallway from the lab.
 
 Classes
 ----------
