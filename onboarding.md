@@ -142,6 +142,7 @@ Screen or Tmux is helpful in managing your terminal and navigating the command l
 - Tutorial for Tmux: <https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/>
   - to create a new session: `tmux new-session -s [session name]`
   - to detach or pause a session: ctrl + b + d
+  - - to scroll: `ctrl + b + [`
   - to reattach or get back into a session: `tmux a -t [session name]`
   - to get in read-only mode: `tmux a -rt [session name]`
   - to see list of sessions open: `tmux ls`
