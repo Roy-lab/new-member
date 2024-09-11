@@ -301,9 +301,9 @@ Condor
 
 We sometimes have to run the same program 10,000 times, for different input files and/or with different parameters. Doing this on our servers 'locally' is not feasible. We use Condor to send off our jobs to open computing slots throughout WID servers and UW-Madison at large. You have to wrap your program in a specific Condor script so that Condor knows what resources you need, what input files to grab/send, which output files to fetch after program is run. Go through the tutorials below, **in order**. Again, don't reinvent the wheel; ask if there's a script you can use as a blueprint.
 
-1.  Condor basics: <http://chtc.cs.wisc.edu/helloworld.shtml>
-2.  Running with multiple permutations/parameter combinations: <http://chtc.cs.wisc.edu/multiple-jobs.shtml#foreach>
-3.  \[If you need to\] Running R/Python/Matlab: <http://chtc.cs.wisc.edu/howto_overview.shtml>
+1.  Condor basics: <https://chtc.cs.wisc.edu/uw-research-computing/htcondor-job-submission.html>
+2.  Running with multiple permutations/parameter combinations: <https://chtc.cs.wisc.edu/uw-research-computing/multiple-jobs>
+3.  \[If you need to\] Running R/Python/Matlab: <https://chtc.cs.wisc.edu/uw-research-computing/inter-submit>
 
 -   Condor office hours: check the websites above.
 -   We post questions/tips/notices about Condor in Teams &gt; Roy Group &gt; Condor.
