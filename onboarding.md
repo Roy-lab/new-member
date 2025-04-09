@@ -11,6 +11,7 @@ Here's some information to help you feel less lost. It is an overwhelming amount
 -   [Linux basics](#linux-basics)
 -   [Our servers](#our-servers)
 -   [Server best practices](#server-best-practices)
+-   [Monitoring Server Usage and Status](#monitoring-server-usage-and-status)
 -   [Directory structure](#directory-structure)
 -   [Terminal management](#terminal-management)
 -   [Command line editor](#command-line-editor)
@@ -125,6 +126,17 @@ DO
 - communicate via Teams to coordinate intensive computing runs.
 - to minimize the number of times you have to scp output files (especially images) back and forth between the server and your local machine, attach datavault to your Mac/Windows following the instructions [here](https://elog.discovery.wisc.edu/Software/202).
 - before installing big complicated dependencies, check [module](#module) and ask about pre-existing conda environments.
+
+Monitoring server usage and status
+----------------------------------
+
+WID provides multiple resources for monitoring our working enviornment. For all resources you need to use the WID VPN. 
+
+-  DiskOverData - This resource tracks the data vault usage. It can be used to monitor memory footprint of folders, or tracking the number of files in each folder (both are important for backups. https://diskoverdata.morgridge.net/login.php
+
+-  Grafana - This resource monitors datavault projects. It contains much of the same information but at a higher level than DiskOverData. (At the Roy-singlecell level). WID table is useful to see available space for a partition. https://grafana.discovery.wisc.edu/d/InF7cYtSk/wid-table?orgId=1
+
+-  Ganglia - This resource monitors server status. We are the Systems Biology super group on the discovery Grid. Here you can track CPU usage per each of the nine servers, as well as working memory.  https://ganglia.discovery.wisc.edu/?m=load_one&r=hour&s=by%20name&hc=4&mc=2
 
 Directory structure
 -------------------
