@@ -90,6 +90,8 @@ Your \[wid\_id\] and temp password is in the email that IT sent you (it is NOT y
 
 `ssh elee1@roy-submit.discovery.wisc.edu`
 
+Roy-exec-6 and Roy-exec-7 have been decommissioned.  
+
 | Server     	|  RAM (GB)| \# of CPUs (logical cores)|  Scratch storage (TB)|  % dedicated to Condor|  # of GPUs | Mem/GPU (GB)   |  GPU spec 	|
 |:--------------|---------:|--------------------------:|---------------------:|----------------------:|-----------:|---------------:|------------------:|
 | roy-submit 	|       256| 40                        |                   1.9|                      0|	       	  0|		   0|		NA	|
@@ -98,8 +100,8 @@ Your \[wid\_id\] and temp password is in the email that IT sent you (it is NOT y
 | roy-exec-3 	|      1024| 112                       |                   2.0|                     75|           0|		   0|		NA	|
 | roy-exec-4 	|      1024| 112                       |                   2.0|                     75|           0|		   0|		NA	|
 | roy-exec-5	|      1024| 112                       |                   2.0|                     75|           0|		   0|		NA	|
-| roy-exec-6 	|       512| 16                        |                   0.0|                     75|           0|		   0|		NA	|
-| roy-exec-7 	|        64| 12                        |                   0.0|                     75|           0|		   0|		NA	|
+| ~~roy-exec-6~~|   ~~512~~| ~~16~~                    |               ~~0.0~~|                 ~~75~~|       ~~0~~|	       ~~0~~|		~~NA~~	|
+| ~~roy-exec-7~~ |   ~~64~~| ~~12~~                    |               ~~0.0~~|                 ~~75~~|       ~~0~~|	       ~~0~~|		~~NA~~	|
 | roy-exec-8 	|      1024| 144                       |                   1.3|                     75|           0|		   0|		NA	|
 | roy-exec-9 	|       512| 112                       |		   1.8|			    50| 	  2|	          80| 		A100	|
 | roy-exec-10	|      2048| 96			       |		   1.3|			    50| 	  0|		   0|		NA	|
