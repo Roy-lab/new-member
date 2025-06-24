@@ -405,8 +405,16 @@ If you do not come from a CS background, here's a sequence of classes we recomme
 Additionally, these classes cover materials very relevant to our work, but may not be offered every semester:
 
 -   BMI 826-023/CS 838 Network Biology
+-   BMI/CS 775 Network Biology
 -   CS/STAT/ECE/ME 532 Matrix Methods in Machine Learning
 -   STAT 451 Introduction to Machine Learning and Statistical Pattern Classification
 -   Introduction to Deep Learning From Sebastian Raschka
 
-If you're coming from the computational side and want to dig deeper into biology, you may want to check out GENETICS 466 (Principles of Genetics). It does have some basic biology and chemistry pre-requisites. There are also seminars you can take for credit, spread throughout many different biology-related departments. Ask our lab members if you're curious about a class and how relevant you think it would be for our work.
+Other courses recommended:
+- CS/ECE 561 (Probability and Info Theory in Machine Learning)
+- CS 639 (Special topics - Foundations of Data Science): crash course in mathematical background of data science; heavy in linear algebra
+- CS 761 (Mathematical Foundations of Machine Learning)
+- CS 771 (Learning based methods for computer vision): despite the focus on vision, it covers a lot of deep learning fundamentals
+- STAT 775 (Bayesian decision and control): covers probabilistic models and probablistiic graphical models in detail
+
+If you're coming from the computational side and want to dig deeper into biology, you may want to check out GENETICS 466 (Principles of Genetics) or GENETICS 620 (Eucharyotic molecular biology). It does have some basic biology and chemistry pre-requisites. There are also seminars you can take for credit, spread throughout many different biology-related departments. Ask our lab members if you're curious about a class and how relevant you think it would be for our work.
