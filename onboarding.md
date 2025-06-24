@@ -1,6 +1,6 @@
 Welcome to Roy Lab
 ================
-Last updated 4/24/2024
+Last updated 6/24/2025
 
 Here's some information to help you feel less lost. It is an overwhelming amount of information, but we don't expect anyone to go figure it all out and learn everything in weeks. It's to point you to resources so you can orient yourself, and then hopefully you can teach yourself how to fish. Have fun! We got your back.
 
