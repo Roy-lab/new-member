@@ -69,7 +69,7 @@ Most of our communications go through Microsoft Teams (it's like Slack). We will
 
 One caveat: please **don't** post results on Teams; the search functionality isn't great and it will get lost in the messages. Refer to [Documenting our work](#documenting-our-work) section.
 
-Roy lab [calendar](https://docs.google.com/spreadsheets/d/1w5hO7002EuNbNx8-Bv74aecgabr1kaQP5yuharB1vlU/edit?usp=sharing). If you don't have access when you click the link, ask Sushmita.
+Roy lab [calendar](https://calendar.google.com/calendar/u/0/r?cid=M3Biam44Y2N1cTlzdXRtM25uZDhuMnRzczBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ). If you don't have access when you click the link, ask Sushmita.
 
 Linux basics
 ------------
